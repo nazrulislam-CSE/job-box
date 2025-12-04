@@ -34,6 +34,14 @@
             </p>
           </a>
         </li>
+        <!-- Advanced Settings -->
+        <li class="nav-item">
+            <a href="{{ route('admin.settings.index') }}" 
+               class="nav-link {{ Route::is('admin.settings.*') ? 'active' : '' }}">
+                <i class="nav-icon fas fa-cogs"></i>
+                <p>Advanced Settings</p>
+            </a>
+        </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->
